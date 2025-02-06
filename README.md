@@ -8,12 +8,13 @@ The experiments conducted in this repository aimed to test if a noise generator 
 
 ## Usage
 
-`MachineUnlearning.ipynb`: Does exist in the original repo too. Changed to offer more usability, especially the automatic saving of the model at the end of the 
+`MachineUnlearning.ipynb`: Does exist in the original repo too. Changed to offer more usability, especially the automatic saving of the model at the end of it.
 
-`MachineUnlearningProposal.ipynb`: Does not exist in the original repo. Used for the changes we implemented.
+`MachineUnlearningProposal.ipynb`: Does not exist in the original repo. Used for the changes we implemented. But all of its functionalities go outsourced into `src/fyemu_tunable`. 
 
 ## Tuning
 
 If you want to tune the hyperparameters, you should start with `tuning.ipynb`.
 
 `src/fyemu_tunable` mainly exists to be able to tune the unlearning algorithm, but also serves as the main file which holds the whole FEMU+Gen Machine Unlearning Algorithm.
+The main function of this file let's you train the baseline models (train and retrained).
